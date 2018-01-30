@@ -3,24 +3,25 @@
 
 *If you make customers unhappy in the physical world, they might each tell six friends. If you make customers unhappy on the Internet, they can each tell 6,000.*
 
-E-commerce companies need to be especially mindful of their service team as well as the power of the social customer. E-commerce customers are visitors to a website differ by source, browser, purchasing habits, and other important attributes. Therefore, marketing campaign of e-commerce shop should be targeted by customers.   
+**E-commerce companies** need to be especially mindful of their service team as well as the power of the social customer. E-commerce customers are visitors to a website differ by source, browser, purchasing habits, and other important attributes. Therefore, marketing campaign of e-commerce shop should be targeted by customers. Moreover, loyal customers can grow business faster than sales and marketing.
 
-**The purpose** is to improve marketing campain based on customer segmentation by dividing customers into various groups for future personalization services and to identify customers who are more likely to respond to promotions. 
+For example, in the U.S., 40% of online shopping revenue comes from repeat customers, who make up only 8% of site visitors.
 
-**Dataset** contains all the transactions occurring for a UK-based and registered non-store online retail from 2010 and 2011. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers. Data consists of InvoiceNo, StockCode, Description, Quantity, InvoiceDate, DateTime, UnitPrice, CustomerID
-and Country.
+**The purpose** is to improve marketing campaign, including customer loyalty program, based on customer segmentation by dividing customers into various groups for future personalization services. 
 
-**Customer Segmentation using RFM Analysis**
+**Dataset** contains all the transactions occurring for a UK-based and registered non-store online retail from 2010 and 2011. The company mainly sells unique all-occasion gifts. Data consists of InvoiceNo, StockCode, Description, Quantity, InvoiceDate, DateTime, UnitPrice, CustomerID and Country. Data was found on www.kaggle.com.
 
-RFM provides a simple framework for quantifying customer behavior. RFM stands for the three dimensions:
+**Customer Segmentation using RFV Analysis**
+
+RFV provides a simple framework for quantifying customer behavior. RFV stands for the three dimensions:
 
 - Recency – How recently did the customer purchase?
 - Frequency – How often do they purchase?
-- Monetary Value – How much do they spend?
+- Value – How much do they spend?
 
 **Step 1** - Clean up the data;
 
-**Step 2** - Calculate the RFM metrics for each customer;
+**Step 2** - Calculate the RFV metrics for each customer;
 
 **Step 3** - Find the distribution for each metrics;
 
@@ -33,14 +34,10 @@ RFM provides a simple framework for quantifying customer behavior. RFM stands fo
 Maximize the return on the marketing investments of e-commerce business by:
 
 - understand the business better;
-
+- increase loyalty and users engagement (customer loyalty program); 
+- create Social Media Marketing campaign based on customer segmentation; 
+- remarketing / retargeting marketing campaign;
 - predict new product launches; 
 
-- increase loyalty and users engagement; 
-
-- remarketing / retargeting marketing campaigns;
-
 Thus, clustering customers into different groups improves the quality of
-recommendation, helps decision-makers identify market segments more clearly and
-therefore develop more effective strategies. 
-
+recommendation *(customer loyalty program)*, helps identify market segments more clearly and develop more effective strategies.
