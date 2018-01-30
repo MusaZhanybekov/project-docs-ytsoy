@@ -9,7 +9,12 @@ For example, in the U.S., 40% of online shopping revenue comes from repeat custo
 
 **The purpose** is to improve marketing campaign, including customer loyalty program, based on customer segmentation by dividing customers into various groups for future personalization services. 
 
+<!--- A lot of bussiness speech, but I have asked for that. Nicely written, clearly explained. --->
+
 **Dataset** contains all the transactions occurring for a UK-based and registered non-store online retail from 2010 and 2011. The company mainly sells unique all-occasion gifts. Data consists of InvoiceNo, StockCode, Description, Quantity, InvoiceDate, DateTime, UnitPrice, CustomerID and Country. Data was found on www.kaggle.com.
+
+<!--- We have already used this data in our seminars (I think) (:
+The dataset https://www.kaggle.com/carrie1/ecommerce-data/data was used in w2 and will be used again in w4. Please try to look for some other dataset. If not possible, we can consult what data to use. ---> 
 
 **Customer Segmentation using RFV Analysis**
 
@@ -41,3 +46,5 @@ Maximize the return on the marketing investments of e-commerce business by:
 
 Thus, clustering customers into different groups improves the quality of
 recommendation *(customer loyalty program)*, helps identify market segments more clearly and develop more effective strategies.
+
+<!--- Well written. The methodology could be a little more "technical", mentioning some of the algorithms you want to use after the clustering. --->
