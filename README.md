@@ -28,7 +28,7 @@ RFM provides a simple framework for quantifying customer behavior. RFM stands fo
 
 **Step 5** - Estimate customer value.
 
-**Outcome**
+**Outcomes**
 
 Maximize the return on the marketing investments of e-commerce business by:
 
