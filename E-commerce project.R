@@ -25,7 +25,7 @@ head(data5) # null observations and 1 variable - it is a strange data
 View(data5) #data looks like a text, I tried to use different "sep" and nothing happened
 
 #Sources review shows that to find proper data is complicated process. I faced with following problems:
-#1 - Structure of data is different. As I have United Kingdom e-commerce data, I was looking for additional e-data of UK e-store. All my attempts were unsuccessful.
+#1 - Structure of data is different. As I have European conutries e-commerce data, I was looking for additional e-data of EU e-store. All my attempts were unsuccessful.
 #2 - Data has different format. I used command "read.table" to convert data in R and sign of separater differs for each data. It is not easy to understand what is "sep" from the first sight.
 #3 - Title of data differes what is exactly in it. For example, I found the "Amazon data" but data was not about e-commerce.
 #4 - I am still looking for nice data :)
@@ -66,9 +66,10 @@ data_new <- subset(data_final, UnitPrice > 0) # I deleted the items with negativ
 data_new1 <-subset(data_new, Quantity > 0) # Only items with positive quantity are considered. 397 884 obs.
 newdata <-subset(data_new1, Country != "Unspecified") # Now i have clean data with 397 640 obs. of 11 variables
 View(newdata)
+glimpse(newdata)
 
 
 # I found 5 datasets from different sources. The best data is from kaggle.com. I campared my data with data which we used during the EX2 and EX4 and it looks differently.
-# I did my best to check and clean my data. There were 541 909 observations Innitially. I removed NAs, negative numbers in Quantity and UnitPrice columns. As result I got 397 640 obs.
+# I did my best to check and clean my data. There were 541 909 observations innitially. I removed NAs, negative numbers in Quantity and UnitPrice columns. As result I got 397 640 obs.
 
 
